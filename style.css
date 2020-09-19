@@ -1,0 +1,91 @@
+    /* For CSS*/
+
+#grad1 {
+  height: 200px;
+  background-color: 09A6F3; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, 09A6F3 , 0C63E7);
+}
+
+    body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+	.left{
+		float : left;
+	}
+	.right{
+		float : right;
+	}
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+	.leftmargin{
+		margin-left: 30px;
+	}
+	.form-label {
+	color:white !important;
+	font-size:16;
+	font-style:bold;
+}
+
+.single-feature{
+	
+
+}
+
+	.admission-sec{
+	color:#fff;
+	font-family:verdana;
+}
+
+#content img[src="/i"] { 
+    background-image:url(dark-img.png) !important;
+}
+
+#submit{
+	 background-color: #0000FF;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.div1 {
+  border: 5px solid White;
+  padding: 70px;
+  margin: 30px;
+}
